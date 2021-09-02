@@ -25,7 +25,7 @@ function iteration() {
         clearInterval(interval);
         let a = document.createElement('a');
         a.innerHTML = 'Start Game';
-        a.setAttribute('href', 'index.html');
+        a.setAttribute('href', 'splash.html');
         splash.appendChild(a);
     }
 }
